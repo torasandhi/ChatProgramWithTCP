@@ -1,0 +1,15 @@
+D:\PENS\Tugas\Semester 5\PraktikumPemrogramanJaringan\CharServerTCP\ChatClientTCP\bin\Debug\ChatClientTCP.exe.config
+D:\PENS\Tugas\Semester 5\PraktikumPemrogramanJaringan\CharServerTCP\ChatClientTCP\bin\Debug\ChatClientTCP.exe
+D:\PENS\Tugas\Semester 5\PraktikumPemrogramanJaringan\CharServerTCP\ChatClientTCP\bin\Debug\ChatClientTCP.pdb
+D:\PENS\Tugas\Semester 5\PraktikumPemrogramanJaringan\CharServerTCP\ChatClientTCP\obj\Debug\ChatClientTCP.csproj.AssemblyReference.cache
+D:\PENS\Tugas\Semester 5\PraktikumPemrogramanJaringan\CharServerTCP\ChatClientTCP\obj\Debug\MainWindow.baml
+D:\PENS\Tugas\Semester 5\PraktikumPemrogramanJaringan\CharServerTCP\ChatClientTCP\obj\Debug\MainWindow.g.cs
+D:\PENS\Tugas\Semester 5\PraktikumPemrogramanJaringan\CharServerTCP\ChatClientTCP\obj\Debug\App.g.cs
+D:\PENS\Tugas\Semester 5\PraktikumPemrogramanJaringan\CharServerTCP\ChatClientTCP\obj\Debug\ChatClientTCP_MarkupCompile.cache
+D:\PENS\Tugas\Semester 5\PraktikumPemrogramanJaringan\CharServerTCP\ChatClientTCP\obj\Debug\ChatClientTCP.g.resources
+D:\PENS\Tugas\Semester 5\PraktikumPemrogramanJaringan\CharServerTCP\ChatClientTCP\obj\Debug\ChatClientTCP.Properties.Resources.resources
+D:\PENS\Tugas\Semester 5\PraktikumPemrogramanJaringan\CharServerTCP\ChatClientTCP\obj\Debug\ChatClientTCP.csproj.GenerateResource.cache
+D:\PENS\Tugas\Semester 5\PraktikumPemrogramanJaringan\CharServerTCP\ChatClientTCP\obj\Debug\ChatClientTCP.csproj.CoreCompileInputs.cache
+D:\PENS\Tugas\Semester 5\PraktikumPemrogramanJaringan\CharServerTCP\ChatClientTCP\obj\Debug\ChatClientTCP.exe
+D:\PENS\Tugas\Semester 5\PraktikumPemrogramanJaringan\CharServerTCP\ChatClientTCP\obj\Debug\ChatClientTCP.pdb
+D:\PENS\Tugas\Semester 5\PraktikumPemrogramanJaringan\CharServerTCP\ChatClientTCP\obj\Debug\ChatClientTCP.exe.config

@@ -1,0 +1,29 @@
+﻿<Window x:Class="ChatClientTCP.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Chat Client" Height="450" Width="600">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Bagian Atas: IP, Port, Username, Connect -->
+        <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+            <TextBox x:Name="txtIP" Width="120" Text="127.0.0.1" Margin="0,0,5,0"/>
+            <TextBox x:Name="txtPort" Width="60" Text="5000" Margin="0,0,5,0"/>
+            <TextBox x:Name="txtUsername" Width="100" Text="Alice" Margin="0,0,5,0"/>
+            <Button x:Name="btnConnect" Content="Connect" Width="80" Click="btnConnect_Click"/>
+        </StackPanel>
+
+        <!-- Bagian Tengah: Chat Log -->
+        <ListBox x:Name="listBoxChat" Grid.Row="1"/>
+
+        <!-- Bagian Bawah: Pesan + Send -->
+        <StackPanel Orientation="Horizontal" Grid.Row="2" Margin="0,10,0,0">
+            <TextBox x:Name="txtMessage" Width="400" Margin="0,0,5,0"/>
+            <Button x:Name="btnSend" Content="Send" Width="80" Click="btnSend_Click"/>
+        </StackPanel>
+    </Grid>
+</Window>
