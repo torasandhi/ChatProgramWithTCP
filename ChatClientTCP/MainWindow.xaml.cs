@@ -38,8 +38,8 @@ namespace ChatClientTCP
             if (_stream != null && _client.Connected)
             {
                 string msg = txtMessage.Text;
-                string json = $"{{\"msg\",\"from\":\"{txtUsername.Text}\",\"to\":\"all\":\"{msg}\"}}";
-
+                string json = $"{{\"type\":\"msg\",\"from\":\"{txtUsername.Text}\",\"to\":\"all\",\"text\":\"{msg}\"}}";
+                
                 byte[] data = Encoding.UTF8.GetBytes(json);
                 await _stream.WriteAsync(data, 0, data.Length);
 
