@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\PENS\\Tugas\\Semester 5\\PraktikumPemrogramanJaringan\\CharServerTCP\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0FA71255-7E02-45C4-AD2D-DF09D43B31CB}|ChatClientTCP\\ChatClientTCP.csproj|D:\\PENS\\Tugas\\Semester 5\\PraktikumPemrogramanJaringan\\CharServerTCP\\chatclienttcp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{0FA71255-7E02-45C4-AD2D-DF09D43B31CB}|ChatClientTCP\\ChatClientTCP.csproj|solutionrelative:chatclienttcp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0FA71255-7E02-45C4-AD2D-DF09D43B31CB}|ChatClientTCP\\ChatClientTCP.csproj|d:\\pens\\tugas\\semester 5\\praktikumpemrogramanjaringan\\charservertcp\\chatclienttcp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0FA71255-7E02-45C4-AD2D-DF09D43B31CB}|ChatClientTCP\\ChatClientTCP.csproj|D:\\PENS\\Tugas\\Semester 5\\PraktikumPemrogramanJaringan\\CharServerTCP\\chatclienttcp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0FA71255-7E02-45C4-AD2D-DF09D43B31CB}|ChatClientTCP\\ChatClientTCP.csproj|solutionrelative:chatclienttcp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{67A9AA4B-EA6C-4B7C-92A3-62EEB08C78E9}|CharServerTCP\\CharServerTCP.csproj|d:\\pens\\tugas\\semester 5\\praktikumpemrogramanjaringan\\charservertcp\\charservertcp\\chatserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{67A9AA4B-EA6C-4B7C-92A3-62EEB08C78E9}|CharServerTCP\\CharServerTCP.csproj|solutionrelative:charservertcp\\chatserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0FA71255-7E02-45C4-AD2D-DF09D43B31CB}|ChatClientTCP\\ChatClientTCP.csproj|d:\\pens\\tugas\\semester 5\\praktikumpemrogramanjaringan\\charservertcp\\chatclienttcp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{0FA71255-7E02-45C4-AD2D-DF09D43B31CB}|ChatClientTCP\\ChatClientTCP.csproj|solutionrelative:chatclienttcp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{67A9AA4B-EA6C-4B7C-92A3-62EEB08C78E9}|CharServerTCP\\CharServerTCP.csproj|d:\\pens\\tugas\\semester 5\\praktikumpemrogramanjaringan\\charservertcp\\charservertcp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{67A9AA4B-EA6C-4B7C-92A3-62EEB08C78E9}|CharServerTCP\\CharServerTCP.csproj|solutionrelative:charservertcp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{67A9AA4B-EA6C-4B7C-92A3-62EEB08C78E9}|CharServerTCP\\CharServerTCP.csproj|d:\\pens\\tugas\\semester 5\\praktikumpemrogramanjaringan\\charservertcp\\charservertcp\\chatserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{67A9AA4B-EA6C-4B7C-92A3-62EEB08C78E9}|CharServerTCP\\CharServerTCP.csproj|solutionrelative:charservertcp\\chatserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{67A9AA4B-EA6C-4B7C-92A3-62EEB08C78E9}|CharServerTCP\\CharServerTCP.csproj|d:\\pens\\tugas\\semester 5\\praktikumpemrogramanjaringan\\charservertcp\\charservertcp\\charservertcp.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,20 +38,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "D:\\PENS\\Tugas\\Semester 5\\PraktikumPemrogramanJaringan\\CharServerTCP\\ChatClientTCP\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "ChatClientTCP\\MainWindow.xaml.cs",
               "ToolTip": "D:\\PENS\\Tugas\\Semester 5\\PraktikumPemrogramanJaringan\\CharServerTCP\\ChatClientTCP\\MainWindow.xaml.cs",
               "RelativeToolTip": "ChatClientTCP\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAhwE8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-22T13:06:08.311Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\PENS\\Tugas\\Semester 5\\PraktikumPemrogramanJaringan\\CharServerTCP\\ChatClientTCP\\MainWindow.xaml",
               "RelativeDocumentMoniker": "ChatClientTCP\\MainWindow.xaml",
@@ -63,15 +63,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ChatServer.cs",
               "DocumentMoniker": "D:\\PENS\\Tugas\\Semester 5\\PraktikumPemrogramanJaringan\\CharServerTCP\\CharServerTCP\\ChatServer.cs",
               "RelativeDocumentMoniker": "CharServerTCP\\ChatServer.cs",
               "ToolTip": "D:\\PENS\\Tugas\\Semester 5\\PraktikumPemrogramanJaringan\\CharServerTCP\\CharServerTCP\\ChatServer.cs",
               "RelativeToolTip": "CharServerTCP\\ChatServer.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAowD4AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T12:53:05.788Z"
+              "WhenOpened": "2025-09-22T12:53:05.788Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -81,13 +82,14 @@
               "RelativeDocumentMoniker": "CharServerTCP\\CharServerTCP.csproj",
               "ToolTip": "D:\\PENS\\Tugas\\Semester 5\\PraktikumPemrogramanJaringan\\CharServerTCP\\CharServerTCP\\CharServerTCP.csproj",
               "RelativeToolTip": "CharServerTCP\\CharServerTCP.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-09-22T12:49:56.103Z"
+              "WhenOpened": "2025-09-22T12:49:56.103Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\PENS\\Tugas\\Semester 5\\PraktikumPemrogramanJaringan\\CharServerTCP\\CharServerTCP\\Program.cs",
               "RelativeDocumentMoniker": "CharServerTCP\\Program.cs",
@@ -95,7 +97,8 @@
               "RelativeToolTip": "CharServerTCP\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-22T12:38:33.381Z"
+              "WhenOpened": "2025-09-22T12:38:33.381Z",
+              "EditorCaption": ""
             }
           ]
         }

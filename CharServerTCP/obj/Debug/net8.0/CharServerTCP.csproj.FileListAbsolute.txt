@@ -27,3 +27,4 @@ D:\PENS\Tugas\Semester 5\PraktikumPemrogramanJaringan\SocketProgramming\ChatProg
 D:\PENS\Tugas\Semester 5\PraktikumPemrogramanJaringan\SocketProgramming\ChatProgramWithTCP\CharServerTCP\obj\Debug\net8.0\CharServerTCP.pdb
 D:\PENS\Tugas\Semester 5\PraktikumPemrogramanJaringan\SocketProgramming\ChatProgramWithTCP\CharServerTCP\obj\Debug\net8.0\CharServerTCP.genruntimeconfig.cache
 D:\PENS\Tugas\Semester 5\PraktikumPemrogramanJaringan\SocketProgramming\ChatProgramWithTCP\CharServerTCP\obj\Debug\net8.0\ref\CharServerTCP.dll
+D:\PENS\Tugas\Semester 5\PraktikumPemrogramanJaringan\CharServerTCP\CharServerTCP\obj\Debug\net8.0\CharServerTCP.sourcelink.json
