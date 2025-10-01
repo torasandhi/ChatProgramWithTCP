@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CharServerTCP")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+166ee37634c8a1ed0697066f3e577c36bd85db03")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+13b00a979be175618d4e25febc073b915964f5b8")]
 [assembly: System.Reflection.AssemblyProductAttribute("CharServerTCP")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CharServerTCP")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

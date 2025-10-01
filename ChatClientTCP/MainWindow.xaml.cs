@@ -3,6 +3,7 @@ using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Windows.Media;
 
 namespace ChatClientTCP
 {
@@ -10,6 +11,7 @@ namespace ChatClientTCP
     {
         private TcpClient _client;
         private NetworkStream _stream;
+        private bool isDark = false;
 
         public MainWindow()
         {
@@ -179,5 +181,93 @@ namespace ChatClientTCP
                 _client.Close();
             }
         }
+
+
+        private void btnToggleTheme_Click(object sender, RoutedEventArgs e)
+        {
+            isDark = !isDark;
+
+            if (isDark)
+                SetDarkTheme();
+            else
+                SetLightTheme();
+        }
+
+        private void SetDarkTheme()
+        {
+            var darkBg = new SolidColorBrush(Color.FromRgb(30, 30, 30));
+            var darkCtrl = new SolidColorBrush(Color.FromRgb(45, 45, 45));
+            var darkBtn = new SolidColorBrush(Color.FromRgb(70, 70, 70));
+            var white = Brushes.White;
+
+            this.Background = darkBg;
+
+            listBoxChat.Background = darkCtrl;
+            listBoxChat.Foreground = white;
+
+            listViewUsers.Background = darkCtrl;
+            listViewUsers.Foreground = white;
+
+            txtMessage.Background = darkCtrl;
+            txtMessage.Foreground = white;
+
+            txtIP.Background = darkCtrl;
+            txtIP.Foreground = white;
+
+            txtPort.Background = darkCtrl;
+            txtPort.Foreground = white;
+
+            txtUsername.Background = darkCtrl;
+            txtUsername.Foreground = white;
+
+            btnConnect.Background = darkBtn;
+            btnConnect.Foreground = white;
+
+            btnSend.Background = darkBtn;
+            btnSend.Foreground = white;
+
+            btnToggleTheme.Background = darkBtn;
+            btnToggleTheme.Foreground = white;
+            btnToggleTheme.Content = "🌞";
+        }
+
+        private void SetLightTheme()
+        {
+            var white = Brushes.White;
+            var black = Brushes.Black;
+            var lightGray = Brushes.LightGray;
+
+            this.Background = white;
+
+            listBoxChat.Background = white;
+            listBoxChat.Foreground = black;
+
+            listViewUsers.Background = white;
+            listViewUsers.Foreground = black;
+
+            txtMessage.Background = white;
+            txtMessage.Foreground = black;
+
+            txtIP.Background = white;
+            txtIP.Foreground = black;
+
+            txtPort.Background = white;
+            txtPort.Foreground = black;
+
+            txtUsername.Background = white;
+            txtUsername.Foreground = black;
+
+            btnConnect.Background = lightGray;
+            btnConnect.Foreground = black;
+
+            btnSend.Background = lightGray;
+            btnSend.Foreground = black;
+
+            btnToggleTheme.Background = lightGray;
+            btnToggleTheme.Foreground = black;
+            btnToggleTheme.Content = "🌙";
+        }
+
+
     }
 }

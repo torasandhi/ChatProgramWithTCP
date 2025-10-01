@@ -28,3 +28,18 @@ D:\PENS\Tugas\Semester 5\PraktikumPemrogramanJaringan\SocketProgramming\ChatProg
 D:\PENS\Tugas\Semester 5\PraktikumPemrogramanJaringan\SocketProgramming\ChatProgramWithTCP\CharServerTCP\obj\Debug\net8.0\CharServerTCP.genruntimeconfig.cache
 D:\PENS\Tugas\Semester 5\PraktikumPemrogramanJaringan\SocketProgramming\ChatProgramWithTCP\CharServerTCP\obj\Debug\net8.0\ref\CharServerTCP.dll
 D:\PENS\Tugas\Semester 5\PraktikumPemrogramanJaringan\CharServerTCP\CharServerTCP\obj\Debug\net8.0\CharServerTCP.sourcelink.json
+C:\Users\Asus\Documents\GitHub\ChatProgramWithTCP\CharServerTCP\bin\Debug\net8.0\CharServerTCP.exe
+C:\Users\Asus\Documents\GitHub\ChatProgramWithTCP\CharServerTCP\bin\Debug\net8.0\CharServerTCP.deps.json
+C:\Users\Asus\Documents\GitHub\ChatProgramWithTCP\CharServerTCP\bin\Debug\net8.0\CharServerTCP.runtimeconfig.json
+C:\Users\Asus\Documents\GitHub\ChatProgramWithTCP\CharServerTCP\bin\Debug\net8.0\CharServerTCP.dll
+C:\Users\Asus\Documents\GitHub\ChatProgramWithTCP\CharServerTCP\bin\Debug\net8.0\CharServerTCP.pdb
+C:\Users\Asus\Documents\GitHub\ChatProgramWithTCP\CharServerTCP\obj\Debug\net8.0\CharServerTCP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\Documents\GitHub\ChatProgramWithTCP\CharServerTCP\obj\Debug\net8.0\CharServerTCP.AssemblyInfoInputs.cache
+C:\Users\Asus\Documents\GitHub\ChatProgramWithTCP\CharServerTCP\obj\Debug\net8.0\CharServerTCP.AssemblyInfo.cs
+C:\Users\Asus\Documents\GitHub\ChatProgramWithTCP\CharServerTCP\obj\Debug\net8.0\CharServerTCP.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Documents\GitHub\ChatProgramWithTCP\CharServerTCP\obj\Debug\net8.0\CharServerTCP.sourcelink.json
+C:\Users\Asus\Documents\GitHub\ChatProgramWithTCP\CharServerTCP\obj\Debug\net8.0\CharServerTCP.dll
+C:\Users\Asus\Documents\GitHub\ChatProgramWithTCP\CharServerTCP\obj\Debug\net8.0\refint\CharServerTCP.dll
+C:\Users\Asus\Documents\GitHub\ChatProgramWithTCP\CharServerTCP\obj\Debug\net8.0\CharServerTCP.pdb
+C:\Users\Asus\Documents\GitHub\ChatProgramWithTCP\CharServerTCP\obj\Debug\net8.0\CharServerTCP.genruntimeconfig.cache
+C:\Users\Asus\Documents\GitHub\ChatProgramWithTCP\CharServerTCP\obj\Debug\net8.0\ref\CharServerTCP.dll
