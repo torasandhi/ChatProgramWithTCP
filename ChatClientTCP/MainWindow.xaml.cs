@@ -1,5 +1,7 @@
 ﻿using System;
+using System.ComponentModel.Design;
 using System.Net.Sockets;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -20,24 +22,48 @@ namespace ChatClientTCP
 
         private async void btnConnect_Click(object sender, RoutedEventArgs e)
         {
-            try
+            if (_client == null || !_client.Connected) // belum connect → CONNECT
             {
-                _client = new TcpClient();
-                await _client.ConnectAsync(txtIP.Text, int.Parse(txtPort.Text));
-                _stream = _client.GetStream();
+                try
+                {
+                    _client = new TcpClient();
+                    await _client.ConnectAsync(txtIP.Text, int.Parse(txtPort.Text));
+                    _stream = _client.GetStream();
 
-                string loginJson = $"{{\"type\":\"login\",\"from\":\"{txtUsername.Text}\"}}";
-                byte[] loginData = Encoding.UTF8.GetBytes(loginJson);
-                await _stream.WriteAsync(loginData, 0, loginData.Length);
+                    string loginJson = $"{{\"type\":\"login\",\"from\":\"{txtUsername.Text}\"}}";
+                    byte[] loginData = Encoding.UTF8.GetBytes(loginJson);
+                    await _stream.WriteAsync(loginData, 0, loginData.Length);
 
-                listBoxChat.Items.Add("Connected to server.");
-                _ = ReceiveMessages();
+                    listBoxChat.Items.Add("Connected to server.");
+                    btnConnect.Content = "Disconnect"; // ganti label tombol
+                    _ = ReceiveMessages();
+                }
+                catch (Exception ex)
+                {
+                    listBoxChat.Items.Add("Error: " + ex.Message);
+                }
             }
-            catch (Exception ex)
+            else // sudah connect → DISCONNECT
             {
-                listBoxChat.Items.Add("Error: " + ex.Message);
+                try
+                {
+                    string logoutJson = $"{{\"type\":\"logout\",\"from\":\"{txtUsername.Text}\"}}";
+                    byte[] logoutData = Encoding.UTF8.GetBytes(logoutJson);
+                    await _stream.WriteAsync(logoutData, 0, logoutData.Length);
+
+                    _client.Close();
+                    _client = null;
+
+                    listBoxChat.Items.Add("Disconnected from server.");
+                    btnConnect.Content = "Connect"; // reset label tombol
+                }
+                catch (Exception ex)
+                {
+                    listBoxChat.Items.Add("Error while disconnecting: " + ex.Message);
+                }
             }
         }
+
 
         private async void btnSend_Click(object sender, RoutedEventArgs e)
         {
@@ -112,6 +138,16 @@ namespace ChatClientTCP
                     listBoxChat.Items.Add("Disconnected from server.");
                 });
             }
+            finally
+            {
+                await CloseClientWindow();
+            }
+        }
+
+        private async Task CloseClientWindow()
+        {
+            await Task.Delay(2000);
+            Close();
         }
 
         private string FormatMessage(string json)
@@ -134,6 +170,10 @@ namespace ChatClientTCP
                 case "userlist":
                     UpdateUserList(json);
                     return "";
+                case "setname":
+                    txtUsername.Text = from;
+                    return $">> Your username is now '{from}'";
+
                 default:
                     return json;
             }
@@ -182,6 +222,7 @@ namespace ChatClientTCP
             }
         }
 
+        #region Theme
 
         private void btnToggleTheme_Click(object sender, RoutedEventArgs e)
         {
@@ -192,6 +233,7 @@ namespace ChatClientTCP
             else
                 SetLightTheme();
         }
+
 
         private void SetDarkTheme()
         {
@@ -268,6 +310,6 @@ namespace ChatClientTCP
             btnToggleTheme.Content = "🌙";
         }
 
-
+        #endregion
     }
 }

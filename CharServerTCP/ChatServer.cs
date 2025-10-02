@@ -43,18 +43,37 @@ class ChatServer
                 if (json.Contains("\"type\":\"login\""))
                 {
                     string username = ExtractValue(json, "from");
+
+                    // username wong unik
+                    if (_usernames.Values.Contains(username))
+                    {
+                        Random rnd = new Random();
+                        string newUsername;
+                        do
+                        {
+                            newUsername = username + rnd.Next(100, 999); // tambah 3 random digits
+                        } while (_usernames.Values.Contains(newUsername));
+
+                        username = newUsername;
+                    }
+
                     _usernames[client] = username;
 
-                    // kirim userlist langsung ke client baru dulu
+                    // send username yang baru ke client
+                    string confirmMsg = $"{{\"type\":\"setname\",\"from\":\"{username}\"}}";
+                    await SendMessageToClient(client, confirmMsg);
+
+                    // send userlist
                     await SendUserListToClient(client);
 
-                    // baru broadcast join event ke semua
+                    // broadcast join 
                     string joinMsg = $"{{\"type\":\"login\",\"from\":\"{username}\"}}";
                     await Broadcast(joinMsg);
 
                     // update userlist ke semua client
                     await BroadcastUserList();
                 }
+
 
                 else if (json.Contains("\"type\":\"logout\""))
                 {
@@ -99,7 +118,7 @@ class ChatServer
         }
         catch
         {
-            Console.WriteLine("Client disconnected unexpectedly.");
+            Console.WriteLine("Client disconnected.");
         }
         finally
         {
@@ -134,6 +153,18 @@ class ChatServer
             }
         }
     }
+
+    private async Task SendMessageToClient(TcpClient client, string message)
+    {
+        try
+        {
+            var s = client.GetStream();
+            byte[] data = Encoding.UTF8.GetBytes(message);
+            await s.WriteAsync(data, 0, data.Length);
+        }
+        catch { }
+    }
+
 
     private async Task BroadcastUserList()
     {
